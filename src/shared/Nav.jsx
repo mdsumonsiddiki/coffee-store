@@ -1,5 +1,4 @@
 import Logo from '../assets/logo1 1.svg'
-// import navBg from '../assets/navBg.svg';
 const Nav = () => {
     return (
         <div className='py-3 flex items-center justify-center gap-2 bg-navBg'>

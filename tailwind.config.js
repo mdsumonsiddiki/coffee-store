@@ -9,7 +9,8 @@ export default {
       backgroundImage: {
         'navBg': "url('./src/assets/navbar-bg.svg')",
         'hero': "url('./src/assets/banner.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'footer-texture': "url('./src/assets/footerbg.svg')",
+        'copyright': "url('./src/assets/copyrightbg.svg')",
       }
     },
     fontFamily: {
