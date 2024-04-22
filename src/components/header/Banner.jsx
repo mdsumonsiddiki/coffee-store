@@ -1,0 +1,14 @@
+
+const Banner = () => {
+    return (
+        <div className="bg-hero py-72 text-center">
+            <div className="container w-7/12 mx-auto">
+                <h1 className="font-rancho text-white text-5xl">Would you like a Cup of Delicious Coffee?</h1>
+                <p className="text-white mx-auto pt-4 pb-8 w-1/2">Its coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
+                <button className="btn">Learn More</button>
+            </div>
+        </div>
+    );
+};
+
+export default Banner;
