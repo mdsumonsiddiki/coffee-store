@@ -2,6 +2,8 @@ import coffee from '../../assets/coffee.svg';
 import eye from '../../assets/icon/eye.svg';
 import pen from '../../assets/icon/pen.svg';
 import deletes from '../../assets/icon/delete.svg';
+import { Link } from 'react-router-dom';
+
 
 const Card = () => {
     return (
@@ -13,12 +15,12 @@ const Card = () => {
                 <h2 className='text-[#1B1A1AB3] font-medium text-xl'><span className='text-[#1B1A1A] font-semibold'>Price :</span>  890 Taka</h2>
             </div>
             <div className="join join-vertical space-y-3 pr-8">
-                <button className="bg-[#D2B48C] p-3 rounded-md">
+                <Link to='/coffee/coffeedetails' className="bg-[#D2B48C] p-3 rounded-md">
                     <img src={eye} alt="" />
-                </button>
-                <button className="bg-[#3C393B] p-3 rounded-md">
+                </Link>
+                <Link to='/coffee/updatecoffee' className="bg-[#3C393B] p-3 rounded-md">
                     <img src={pen} alt="" />
-                </button>
+                </Link>
                 <button className="bg-[#EA4744] p-3 rounded-md">
                     <img src={deletes} alt="" />
                 </button>

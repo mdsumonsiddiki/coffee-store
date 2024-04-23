@@ -11,7 +11,7 @@ const Products = () => {
             <div className="container mx-auto">
             <SectionTitle subTitle='--- Sip & Savor ---' title='Our Popular Products' />
                 <div className="text-center mt-8">
-                    <Link to='/addcoffee' className="mx-auto font-rancho rounded-md text-white text-2xl bg-[#E3B577] border-2 border-[#331A15] px-5 py-2">Add Coffee</Link>
+                    <Link to='/coffee/addcoffee' className="mx-auto font-rancho rounded-md text-white text-2xl bg-[#E3B577] border-2 border-[#331A15] px-5 py-2">Add Coffee</Link>
                 </div>
                 <div className="mt-12 grid grid-cols-2 gap-6">
                     <Card />
